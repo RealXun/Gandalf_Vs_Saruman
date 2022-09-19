@@ -23,16 +23,16 @@ gandalf = [10, 11, 13, 30, 22, 11, 10, 33, 22, 22]
 saruman = [23, 66, 12, 43, 12, 10, 44, 23, 12, 17]
 gandalfvictories=0
 sarumanvictories=0
-for ataques in range(len(gandalf)):
-    if gandalf[ataques]>saruman[ataques]:
+for attacks in range(len(gandalf)):
+    if gandalf[attacks]>saruman[attacks]:
         gandalfvictories+=1
-        print ("Gandalf win.","Gandalf Attack", gandalf[ataques],"is higher than","Saruman attack",saruman[ataques])
-    elif gandalf[ataques]<saruman[ataques]:
+        print ("Gandalf win.","Gandalf Attack", gandalf[attacks],"is higher than","Saruman attack",saruman[attacks])
+    elif gandalf[attacks]<saruman[attacks]:
         sarumanvictories+=1
-        print ("Saruman win.","Saruman attack",saruman[ataques],"is higher than","Gandalf Attack",gandalf[ataques])
+        print ("Saruman win.","Saruman attack",saruman[attacks],"is higher than","Gandalf Attack",gandalf[attacks])
     else: print ("Empate")
-print("Gandalf ha ganado",gandalfvictories, "veces")
-print("Saruman ha ganado",sarumanvictories, "veces")
+print("Gandalf has won",gandalfvictories, "times")
+print("Saruman has won",sarumanvictories, "times")
 ```
 ### Example of the result
 ```
